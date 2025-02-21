@@ -2,8 +2,8 @@ file_format: "1"
 id: enki42
 name: The enki42 
 type: shield
-url: https://github.com/benvallack/zmk-config-enki42
-requires: [pro_micro]
+url: https://github.com/Jbelley18/zmk-enki42-dongle
+requires: [seeeduino_xiao_ble]
 exposes: [i2c_oled]
 features:
   - keys
